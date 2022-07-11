@@ -1,0 +1,8 @@
+{
+    "nombre": "Api Rest Course",
+    "configDB": {
+        "host": "localhost",
+        "password": "clave",
+        "dbname": "db_name_production"
+    }
+}
