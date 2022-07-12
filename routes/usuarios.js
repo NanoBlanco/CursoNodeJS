@@ -13,6 +13,7 @@ let usuarios = [
 const schema = Joi.object({
     nombre: Joi.string().min(3).max(30).required()
 });
+
 const jsonParser = bodyParser.json();
 
 rutas.use(bodyParser.urlencoded({extended:true}))
